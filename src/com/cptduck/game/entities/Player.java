@@ -40,7 +40,7 @@ public class Player extends Entity {
 	}
 	
 	@Override
-	public void update(GameContainer gc, StateBasedGame sbg) throws SlickException {
+	public void update(GameContainer gc, StateBasedGame sbg, int delta) throws SlickException {
 		
 		/**
 		 * 
